@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DependencyExample_Example' do
+  pod 'DependencyExample', :path => '../'
+
+  target 'DependencyExample_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
