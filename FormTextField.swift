@@ -28,8 +28,8 @@ public class FormTextField: UIView {
         fieldTF.layer.borderWidth = 1
         fieldTF.lineColor = AppColor.invisibleLightColor
         fieldTF.selectedLineColor = AppColor.invisibleLightColor
-        fieldTF.borderColor = AppColor.textFieldBorderColor
-        fieldTF.selectedBorderColor = AppColor.primaryRedColor
+//        fieldTF.borderColor = AppColor.textFieldBorderColor
+//        fieldTF.selectedBorderColor = AppColor.primaryRedColor
         fieldTF.selectedTitleColor = AppColor.primaryRedColor
         let view = UIView(frame: CGRect(x: 0, y: 0, width: 5, height: 0))
         fieldTF.leftView = view
@@ -100,8 +100,8 @@ class FormMobileNumber: UIView {
         fieldTF.layer.borderWidth = 1
         fieldTF.lineColor = AppColor.invisibleLightColor
         fieldTF.selectedLineColor = AppColor.invisibleLightColor
-        fieldTF.borderColor = AppColor.textFieldBorderColor
-        fieldTF.selectedBorderColor = AppColor.primaryRedColor
+//        fieldTF.borderColor = AppColor.textFieldBorderColor
+//        fieldTF.selectedBorderColor = AppColor.primaryRedColor
         fieldTF.selectedTitleColor = AppColor.primaryRedColor
         let view = UIView(frame: CGRect(x: 0, y: 0, width: 5, height: 0))
         fieldTF.leftView = view
@@ -138,8 +138,8 @@ class FormEmail: UIView {
         fieldTF.layer.borderWidth = 1
         fieldTF.lineColor = AppColor.invisibleLightColor
         fieldTF.selectedLineColor = AppColor.invisibleLightColor
-        fieldTF.borderColor = AppColor.textFieldBorderColor
-        fieldTF.selectedBorderColor = AppColor.primaryRedColor
+//        fieldTF.borderColor = AppColor.textFieldBorderColor
+//        fieldTF.selectedBorderColor = AppColor.primaryRedColor
         fieldTF.selectedTitleColor = AppColor.primaryRedColor
         let view = UIView(frame: CGRect(x: 0, y: 0, width: 5, height: 0))
         fieldTF.leftView = view
@@ -175,8 +175,8 @@ class FormDatepicker: UIView {
         fieldTF.layer.borderWidth = 1
         fieldTF.lineColor = AppColor.invisibleLightColor
         fieldTF.selectedLineColor = AppColor.invisibleLightColor
-        fieldTF.borderColor = AppColor.textFieldBorderColor
-        fieldTF.selectedBorderColor = AppColor.primaryRedColor
+//        fieldTF.borderColor = AppColor.textFieldBorderColor
+//        fieldTF.selectedBorderColor = AppColor.primaryRedColor
         fieldTF.selectedTitleColor = AppColor.primaryRedColor
         let view = UIView(frame: CGRect(x: 0, y: 0, width: 5, height: 0))
         fieldTF.leftView = view
@@ -260,8 +260,8 @@ class FormMultipleDatepicker: UIView, TagListViewDelegate {
         fieldTF.layer.borderWidth = 1
         fieldTF.lineColor = AppColor.invisibleLightColor
         fieldTF.selectedLineColor = AppColor.invisibleLightColor
-        fieldTF.borderColor = AppColor.textFieldBorderColor
-        fieldTF.selectedBorderColor = AppColor.primaryRedColor
+//        fieldTF.borderColor = AppColor.textFieldBorderColor
+//        fieldTF.selectedBorderColor = AppColor.primaryRedColor
         fieldTF.selectedTitleColor = AppColor.primaryRedColor
         let view = UIView(frame: CGRect(x: 0, y: 0, width: 5, height: 0))
         fieldTF.leftView = view
@@ -338,7 +338,7 @@ class FormMultipleDatepicker: UIView, TagListViewDelegate {
         tag.enableRemoveButton = true
         tag.removeButtonIconSize = 7
         tag.removeIconLineColor = AppColor.primaryBlackColor
-        tag.disableRemoveButton = true
+//        tag.disableRemoveButton = true
         delegate?.selectedDate(datesView: datesView)
         darkView.removeFromSuperview()
         
@@ -390,8 +390,8 @@ class FormSelectionList: UIView, UITableViewDataSource, UITableViewDelegate, UIG
         fieldTF.layer.borderWidth = 1
         fieldTF.lineColor = AppColor.invisibleLightColor
         fieldTF.selectedLineColor = AppColor.invisibleLightColor
-        fieldTF.borderColor = AppColor.textFieldBorderColor
-        fieldTF.selectedBorderColor = AppColor.primaryRedColor
+//        fieldTF.borderColor = AppColor.textFieldBorderColor
+//        fieldTF.selectedBorderColor = AppColor.primaryRedColor
         fieldTF.selectedTitleColor = AppColor.primaryRedColor
         let view = UIView(frame: CGRect(x: 0, y: 0, width: 5, height: 0))
         fieldTF.leftView = view
