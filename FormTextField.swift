@@ -14,7 +14,7 @@ import TagListView
 
 public class FormTextField: UIView {
     
-    var fieldTF = SkyFloatingLabelTextField()
+    public var fieldTF = SkyFloatingLabelTextField()
     override public init(frame: CGRect) {
         super.init(frame: frame)
         
