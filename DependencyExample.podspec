@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'DependencyExample'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of DependencyExample.'
+  s.summary          = 'Pod with other dependency.'
+  s.swift_version    = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,9 +29,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/sunitamnit@gmail.com/DependencyExample.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'DependencyExample/Classes/**/*'
+  s.source_files = '*.swift', 'Constants/*.swift', 'Extensions/*.swift'
   
   # s.resource_bundles = {
   #   'DependencyExample' => ['DependencyExample/Assets/*.png']
@@ -39,4 +40,8 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'M13Checkbox'
+  s.dependency 'SkyFloatingLabelTextField', '~> 3.0'
+  s.dependency 'TagListView', '~> 1.0'
+  s.platform = :ios,'10.0'
 end

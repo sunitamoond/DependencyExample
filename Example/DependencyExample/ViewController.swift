@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import DependencyExample
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        var a = FormTextField(pointlessParam: "doesn't really matter")
+        a.temp()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
